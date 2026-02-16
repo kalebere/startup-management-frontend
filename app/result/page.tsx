@@ -1,6 +1,7 @@
 "use client";
 
 import { useSearchParams, useRouter } from "next/navigation";
+import React from "react";
 
 export default function ResultPage() {
   const searchParams = useSearchParams();
